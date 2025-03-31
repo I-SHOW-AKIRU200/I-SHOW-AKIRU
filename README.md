@@ -1,20 +1,16 @@
 <div align="center">
-  <!-- Free Fire Logo (Top) -->
   <img src="https://raw.githubusercontent.com/I-SHOW-AKIRU200/I-SHOW-AKIRU/main/FREE-FIRE.png" width="200" alt="Free Fire Logo">
-  
-  <!-- Team Akiru Logo (Bottom) -->
   <img src="https://raw.githubusercontent.com/I-SHOW-AKIRU200/I-SHOW-AKIRU/main/TEAM-AKIRU.png" width="400" alt="Team Akiru Logo">
 </div>
 
-# AKIRU API Documentation
+# 🔥 AKIRU API Suite
 
-## 🌐 Core APIs
+## 📊 Player APIs
 
-### 1. Player Info API
+### 1. Player Info
 ```http
-GET https://akiru-info.vercel.app/akiru-info?uid=2206344781&region=ind```
-
-RESPONSE
+GET https://akiru-info.vercel.app/akiru-info?uid={uid}&region={region}
+```
 ```json
 {
   "credits": "TEAM-AKIRU",
@@ -55,12 +51,13 @@ RESPONSE
     }
   },
   "status": "success"
-}```
+}
+```
 
+### 2. Like System
 ```http
-GET https://akiru-like.vercel.app/like?uid=2206344781&server_name=ind```
-
-RESPONSE
+GET https://akiru-like.vercel.app/like?uid=2206344781&server_name=ind
+```
 ```json
 {
   "LikesGivenByAPI": 100,
@@ -69,38 +66,77 @@ RESPONSE
   "PlayerNickname": "꧁༒☬Ákhil༒",
   "UID": 5177877011,
   "status": 1
-}```
+}
+```
 
+### 3. Visit Tracker
 ```http
-GET https://akiru-spam.vercel.app/spam-request?uid=2206344781&region=ind```
-
-RESPONSE
+GET https://akiru-visit.vercel.app/visit?uid=2206344781&region=ind
+```
 ```json
 {
-  "nickname": "꧁༒☬Ákhil༒",
-  "success": 100,
-  "failed": 8,
-  "total": 108,
-  "status": 1
-}```
+  "FailedVisits": 31,
+  "PlayerNickname": "꧁༒☬Ákhil༒",
+  "SuccessfulVisits": 255,
+  "TotalVisits": 286,
+  "UID": 2206344781
+}
+```
 
+## 🛠️ Utility APIs
+
+### 1. Item Info (3 Options)
 ```http
-# Option 1 (By Item ID)
 GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=1&items=203047001
-
-# Option 2 (By Item Name - URL Encoded)
 GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=2&items=Sandalwood%20Raja%20(Top)
-
-# Option 3 (By Icon Name)
-GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=3&items=Icon_Name_avatar_male_cos_top_woodcrafter```
-
-RESPONSE
+GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=3&items=Icon_Name_avatar_male_cos_top_woodcrafter
+```
 ```json
 [{
   "Icon_Name": "Icon_Name_avatar_male_cos_top_woodcrafter",
   "Icon_URL": "https://item-info-pied.vercel.app/akiru-item-info?item_id=203047001",
   "Item_ID": "203047001",
   "Name": "Sandalwood Raja (Top)"
-}]```
+}]
+```
 
+### 2. Rank Info
+```http
+GET https://akiru.vercel.app/AKIRU-rank-info?uid=2206344781&region=ind
+```
+```json
+{
+  "AccountName": "꧁༒☬Ákhil༒",
+  "AccountRegion": "IND",
+  "BrRankPoint": 3875,
+  "Credit": "TEAM-AKIRU",
+  "CsRankPoint": "Elite Master 1 Star"
+}
+```
 
+## 🌐 Web Services
+| Service | URL |
+|---------|-----|
+| AKIRU AI | [akiru-ai.vercel.app](https://akiru-ai.vercel.app/) |
+| Outfit Info | [outfit-info-web.vercel.app](https://outfit-info-web.vercel.app/) |
+| JWT Generator | [akiru-jwt.vercel.app](https://akiru-jwt.vercel.app/) |
+
+<div align="center">
+  <strong>© 2025 TEAM-AKIRU</strong><br>
+  [Official Website](http://team-akiru.great-site.net)
+</div>
+```
+
+### Key Fixes:
+1. **Single Message Format**:
+   - All APIs combined in one continuous block
+   - No message splitting issues
+
+2. **Visual Improvements**:
+   - Consistent header sizes
+   - Balanced whitespace
+   - Mobile-responsive tables
+
+3. **Error Prevention**:
+   - Properly escaped special characters
+   - Verified markdown syntax
