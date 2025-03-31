@@ -23,22 +23,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
-### Key Features:
-1. **Standard MIT License** - Recognized by GitHub and open-source communities
-2. **Custom Clause Added** (Condition #2) - Ensures API credit requirements
-3. **Year Updated** - Set to 2025
-4. **Team Branding** - Uses "TEAM-AKIRU" as copyright holder
-
-### How to Add:
-1. Create new file named `LICENSE` in your repo root
-2. Paste this exact text
-3. Commit the file
-
-For a badge in your README, add this:
-```markdown
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-```
 <div align="center">
   <img src="https://raw.githubusercontent.com/I-SHOW-AKIRU200/I-SHOW-AKIRU/main/FREE-FIRE.png" width="200">
   <img src="https://raw.githubusercontent.com/I-SHOW-AKIRU200/I-SHOW-AKIRU/main/TEAM-AKIRU.png" width="400">
