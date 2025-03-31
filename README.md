@@ -14,7 +14,6 @@
 
 <br> <!-- Space before content -->
 
-# Your Project Title
 
 <!-- Rest of your README content goes here -->
 
