@@ -130,7 +130,7 @@ GET https://akiru.vercel.app/AKIRU-rank-info?uid=2206344781&region=ind
 
 ## 📜 Credits
 All APIs are developed and maintained by **TEAM-AKIRU**  
-© 2025 AKIRU Services | [Terms of Service](https://team-akiru.great-site.net/terms)
+© 2025 AKIRU Services | [Terms of Service](https://t.me/ishowakiru5)
 ```
 ### Key Fixes:
 1. **Single Message Format**:
