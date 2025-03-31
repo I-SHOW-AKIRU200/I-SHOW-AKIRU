@@ -12,7 +12,7 @@
 
 ### 1. Player Info API
 ```http
-GET https://akiru-info.vercel.app/akiru-info?uid=2206344781&region=ind
+GET https://akiru-info.vercel.app/akiru-info?uid=2206344781&region=ind```
 
 RESPONSE
 ```json
@@ -55,10 +55,10 @@ RESPONSE
     }
   },
   "status": "success"
-}
+}```
 
 ```http
-GET https://akiru-like.vercel.app/like?uid=2206344781&server_name=ind
+GET https://akiru-like.vercel.app/like?uid=2206344781&server_name=ind```
 
 RESPONSE
 ```json
@@ -69,10 +69,10 @@ RESPONSE
   "PlayerNickname": "꧁༒☬Ákhil༒",
   "UID": 5177877011,
   "status": 1
-}
+}```
 
 ```http
-GET https://akiru-spam.vercel.app/spam-request?uid=2206344781&region=ind
+GET https://akiru-spam.vercel.app/spam-request?uid=2206344781&region=ind```
 
 RESPONSE
 ```json
@@ -82,7 +82,7 @@ RESPONSE
   "failed": 8,
   "total": 108,
   "status": 1
-}
+}```
 
 ```http
 # Option 1 (By Item ID)
@@ -92,7 +92,7 @@ GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=1&items=2
 GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=2&items=Sandalwood%20Raja%20(Top)
 
 # Option 3 (By Icon Name)
-GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=3&items=Icon_Name_avatar_male_cos_top_woodcrafter
+GET https://free-fire-item-info-api.vercel.app/akiru-items-info?option=3&items=Icon_Name_avatar_male_cos_top_woodcrafter```
 
 RESPONSE
 ```json
@@ -101,6 +101,6 @@ RESPONSE
   "Icon_URL": "https://item-info-pied.vercel.app/akiru-item-info?item_id=203047001",
   "Item_ID": "203047001",
   "Name": "Sandalwood Raja (Top)"
-}]
+}]```
 
 
