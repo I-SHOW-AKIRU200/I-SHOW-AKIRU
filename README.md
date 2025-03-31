@@ -23,7 +23,7 @@
 
 ### 1. Player Info
 ```http
-GET https://akiru-info.vercel.app/akiru-info?uid={uid}&region={region}
+GET https://akiru-info.vercel.app/akiru-info?uid=2206344781&region=ind
 ```
 ```json
 {
