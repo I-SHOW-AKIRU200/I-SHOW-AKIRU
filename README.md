@@ -114,19 +114,24 @@ GET https://akiru.vercel.app/AKIRU-rank-info?uid=2206344781&region=ind
 }
 ```
 
-## 🌐 Web Services
-| Service | URL |
-|---------|-----|
-| AKIRU AI | [akiru-ai.vercel.app](https://akiru-ai.vercel.app/) |
-| Outfit Info | [outfit-info-web.vercel.app](https://outfit-info-web.vercel.app/) |
-| JWT Generator | [akiru-jwt.vercel.app](https://akiru-jwt.vercel.app/) |
+## 🌍 Web Services
 
 <div align="center">
-  <strong>© 2025 TEAM-AKIRU</strong><br>
-  [Official Website](http://team-akiru.great-site.net)
-</div>
-```
 
+| Service | URL |
+|---------|-----|
+| AKIRU AI | [https://akiru-ai.vercel.app/](https://akiru-ai.vercel.app/) |
+| Outfit Info | [https://outfit-info-web.vercel.app/](https://outfit-info-web.vercel.app/) |
+| Wishlist Manager | [https://wishlist-add-web.vercel.app/](https://wishlist-add-web.vercel.app/) |
+| Emote ID Finder | [https://thachmora.site/freefire](https://thachmora.site/freefire) |
+| JWT | [https://akiru-jwt.vercel.app/AKIRU-JWT-GENERATOR](https://akiru-jwt.vercel.app/AKIRU-JWT-GENERATOR) |
+
+</div>
+
+## 📜 Credits
+All APIs are developed and maintained by **TEAM-AKIRU**  
+© 2025 AKIRU Services | [Terms of Service](https://team-akiru.great-site.net/terms)
+```
 ### Key Fixes:
 1. **Single Message Format**:
    - All APIs combined in one continuous block
